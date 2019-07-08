@@ -1,6 +1,8 @@
 .PHONY: build
 .PHONY: clean
 
+.DEFAULT: build
+
 # If your dir has an file which called `build`. Then your output for the `make build` will be like above:：
 # make: `build' is up to date.
 
